@@ -32,6 +32,8 @@ The Poisson distribution is the discrete probability distribution of the number 
 # Program :
 DEVOLPED BY:NIRANJAN S
 REF NO:24900209
+
+
 import numpy as np
 
 import math
@@ -83,7 +85,6 @@ for x in range(M+1):
     xi.append((f[x]-E[x])**2/E[x])
 
     print("%2.2f %2.3f %4.2f %3.2 %3.2f"%(x,p[x], f[x],E[x],xi[x]))
-
 print("-------------------------------")
 
 print("Calculated value of Chi square is %4.2f Xcal_ch12_sq)
